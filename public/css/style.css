@@ -81,7 +81,7 @@
 #container {
   /* background-color: blue; */
   height: 100vh;
-  margin: 0 20rem 0 20rem;
+  margin: 0 24rem 0 24rem;
 }
 
 .content-1 {
@@ -255,8 +255,8 @@
   }
 
   .mom-card {
-    flex-direction: column;
-    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   /* .card{
